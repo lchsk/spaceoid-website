@@ -1,0 +1,331 @@
+/* Global */
+
+@font-face {
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+
+	font-family: 'Bebas';
+	src:  
+		 url('../fonts/BebasNeue.otf')  format('truetype'),
+		 url('../fonts/BebasNeue.otf?') format('eot'), 
+	     url('../fonts/BebasNeue.otf') format('woff'),
+	     
+	     url('../fonts/BebasNeue.otf') format('svg')
+	     ;
+	}
+
+body {
+	font-family: Arial, sans-serif;
+	font-weight: 400;
+	font-size: 1em;
+	color: #8a8683;
+	background-color:#ffffff;
+}
+img {
+	max-width: 100%;
+}
+a:link {
+	color: #f68f67;
+	text-decoration: none;
+}
+a:hover {
+	color: #bde2df;
+	text-decoration: none;
+}
+a:visited {
+	color: #f68f67;
+	text-decoration: none;
+}
+
+p.adtext{
+	font-family: 'Bebas', Arial, sans-serif;
+	font-size: 22pt;
+	letter-spacing: 2pt;
+}
+
+
+
+/* Navigation */
+
+.menu {
+	position: fixed;
+	top: 0;
+	width: 100%; 
+	height: auto; 
+	background-color:#ffffff;
+	z-index:100;
+	margin: auto;
+	text-align: center;
+}
+#nav {
+	width: 100%;
+	margin: auto;
+	padding: 0;
+}
+.navigation{
+	float: center;
+	list-style: none;
+	margin: auto;
+	width: 100%;
+	font-size: 22pt;
+	letter-spacing: 2px;
+	font-family: 'Bebas', Arial, sans-serif;
+}
+.navigation li{
+	float: left;
+	padding: 15px 10px 15px 10px;
+	color: #000000;
+}
+.navigation li:hover{
+	cursor: pointer;
+	color: #ce272e;
+}
+
+.navigation .active{
+	cursor: pointer;
+	color: #ce272e;
+}
+
+
+
+
+/* General Slides */ 
+
+.slide{
+	background-attachment: fixed;
+	width: 100%;
+	height: auto;
+	position: relative;
+	padding: 140px 0;
+}
+
+
+
+/* Slide 1 */ 
+
+#slide1{
+	background-color: #000000;
+	background-image: url('../images/bg.png');
+	text-align: center;
+	color:#ffffff;
+}
+
+
+
+
+/* Slide 2 */ 
+
+#slide20{	
+	height: 300px;
+	padding: 0;
+}
+
+/** Slide - red background */
+#slide11{
+	background-image:url('../images/red-bg.png');
+	height: 300px;
+	padding: 0;
+	margin-bottom: 0;
+	text-align: center;
+}
+
+#slide4{
+	background-image:url('../images/red-bg.png');
+	height: 300px;
+	padding: 0;
+	margin-bottom: 0;
+	text-align: center;
+}
+
+#slide4 h1{
+	color: #ffffff;
+	font-family: 'Bebas', Arial, sans-serif;
+	font-size: 40pt;
+	letter-spacing: 5px;
+}
+
+
+/* Generic classes */
+.slide-text{
+	background-color:#ffffff;
+	text-align: center;
+	padding: 0;
+}
+.slide-text h1{
+	color: #000000;
+	font-family: 'Bebas', Arial, sans-serif;
+	font-size: 40pt;
+	letter-spacing: 5px;
+}
+
+.slide-text .feature_list{
+	color: #8a8683;
+	font-family: 'Bebas', Arial, sans-serif;
+	text-align: left;
+	font-size: 24px;
+}
+
+.slide-text .feature_list ul{
+	list-style: none;
+}
+.slide-text .feature_list ul li{
+	padding-top: 4%;
+}
+
+
+/* Slide 2 */ 
+
+#slide2{
+	
+}
+
+
+#test{
+	background-color: #bde2df;
+	color: #ffffff;
+	text-align:center;
+	font-size: 2em;
+	font-weight: 400;
+}
+
+
+
+
+
+
+
+/* Tablet */
+@media screen and (max-width: 1024px) {
+
+#nav {
+	width:100%;
+	text-align:center;
+	margin:10px 0;
+}
+
+.navigation{
+	width: 100%;
+	float: center;
+	list-style: none;
+	margin: 0;
+	padding:0;
+}
+
+.navigation li{
+	float: left;
+	padding: 15px 10px 15px 10px;
+	color: #000000;
+}
+
+.slide{
+	background-attachment: fixed;
+	width:100%;
+	position: relative;
+	padding:150px 0;
+}
+
+#decorative {
+	display:none;
+}
+
+#content {
+	text-align: center;
+	width: 100%;
+}
+
+#slide1 h1 {
+	line-height: 1em;
+}
+#slide1 h2 {
+	line-height: 1em;
+}
+#slide2 h1 {
+	line-height: 1em;
+}
+#slide2 h2 {
+	line-height: 1em;
+}
+#slide3 h1 {
+	line-height: 1em;
+}
+#slide3 h2 {
+	line-height: 1em;
+}
+#slide4 h1 {
+	line-height: 1em;
+}
+#slide4 h2 {
+	line-height: 1em;
+}
+
+}
+
+
+
+
+/* Mobile */
+@media screen and (max-width: 480px) {
+
+#logo {
+	width: 100%;
+	text-align: center;
+}
+
+#nav {
+	width:100%;
+	margin:5px 0;
+}
+
+.navigation{
+	width: 100%;
+	float: left;
+	list-style: none;
+	margin: 0;
+	padding:0;
+}
+
+.navigation li{
+	float: left;
+	width:25%;
+}
+
+.slide{
+	background-attachment: fixed;
+	width:100%;
+	position: relative;
+	padding:150px 0;
+}
+
+
+#slide1 h1 {
+	line-height: 1em;
+}
+#slide1 h2 {
+	line-height: 1em;
+}
+#slide2 h1 {
+	line-height: 1em;
+}
+#slide2 h2 {
+	line-height: 1em;
+}
+#slide3 h1 {
+	line-height: 1em;
+}
+#slide3 h2 {
+	line-height: 1em;
+}
+#slide4 h1 {
+	line-height: 1em;
+}
+#slide4 h2 {
+	line-height: 1em;
+}
+
+
+}
+
+
+
+
