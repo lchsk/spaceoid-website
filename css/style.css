@@ -122,27 +122,12 @@ p.adtext{
 }
 
 /** Slide - red background */
-#slide11{
+#slide11, #slide31{
 	background-image:url('../images/red-bg.png');
 	height: 300px;
 	padding: 0;
 	margin-bottom: 0;
 	text-align: center;
-}
-
-#slide4{
-	background-image:url('../images/red-bg.png');
-	height: 300px;
-	padding: 0;
-	margin-bottom: 0;
-	text-align: center;
-}
-
-#slide4 h1{
-	color: #ffffff;
-	font-family: 'Bebas', Arial, sans-serif;
-	font-size: 40pt;
-	letter-spacing: 5px;
 }
 
 
@@ -173,21 +158,6 @@ p.adtext{
 	padding-top: 4%;
 }
 
-
-/* Slide 2 */ 
-
-#slide2{
-	
-}
-
-
-#test{
-	background-color: #bde2df;
-	color: #ffffff;
-	text-align:center;
-	font-size: 2em;
-	font-weight: 400;
-}
 
 
 
