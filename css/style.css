@@ -142,6 +142,7 @@ p.adtext{
 	font-family: 'Bebas', Arial, sans-serif;
 	font-size: 40pt;
 	letter-spacing: 5px;
+	padding-top: 7px;
 }
 
 .slide-text .feature_list{
